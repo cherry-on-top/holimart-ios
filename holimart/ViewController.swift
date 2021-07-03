@@ -11,8 +11,8 @@ class ViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setUpTabBar()
+        view.backgroundColor = .black
     }
     
     
@@ -20,7 +20,7 @@ class ViewController: UITabBarController {
         tabBar.tintColor = .black
         tabBar.backgroundColor = .white
         
-        let homeViewController = UINavigationController(rootViewController: HomeViewController())
+        let homeViewController = HomeViewController()
         
         let unselectedImage = UIImage(systemName: "house")
         let selectedImage = UIImage(systemName: "house.fill")

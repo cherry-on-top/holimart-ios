@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D2D5AAAE268B7036006F63DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAAD268B7036006F63DB /* AppDelegate.swift */; };
 		D2D5AAB2268B7036006F63DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAB1268B7036006F63DB /* ViewController.swift */; };
-		D2D5AAB5268B7036006F63DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5AAB3268B7036006F63DB /* Main.storyboard */; };
 		D2D5AAB7268B703B006F63DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D5AAB6268B703B006F63DB /* Assets.xcassets */; };
 		D2D5AABA268B703B006F63DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */; };
 		D2D5AAC2268EDE48006F63DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */; };
@@ -19,7 +18,6 @@
 		D2D5AAAA268B7036006F63DB /* holimart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holimart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D5AAAD268B7036006F63DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2D5AAB1268B7036006F63DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2D5AAB4268B7036006F63DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2D5AAB6268B703B006F63DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2D5AAB9268B703B006F63DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2D5AABB268B703B006F63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				D2D5AAAD268B7036006F63DB /* AppDelegate.swift */,
 				D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */,
 				D2D5AAB1268B7036006F63DB /* ViewController.swift */,
-				D2D5AAB3268B7036006F63DB /* Main.storyboard */,
 				D2D5AAB6268B703B006F63DB /* Assets.xcassets */,
 				D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */,
 				D2D5AABB268B703B006F63DB /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				D2D5AABA268B703B006F63DB /* LaunchScreen.storyboard in Resources */,
 				D2D5AAB7268B703B006F63DB /* Assets.xcassets in Resources */,
-				D2D5AAB5268B7036006F63DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2D5AAB3268B7036006F63DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2D5AAB4268B7036006F63DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
