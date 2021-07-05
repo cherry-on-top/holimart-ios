@@ -12,6 +12,7 @@
 		D2D5AAB7268B703B006F63DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D5AAB6268B703B006F63DB /* Assets.xcassets */; };
 		D2D5AABA268B703B006F63DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */; };
 		D2D5AAC2268EDE48006F63DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */; };
+		D2D5AAC426930424006F63DB /* WidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAC326930424006F63DB /* WidgetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D2D5AAB9268B703B006F63DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2D5AABB268B703B006F63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D2D5AAC326930424006F63DB /* WidgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D2D5AAAD268B7036006F63DB /* AppDelegate.swift */,
 				D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */,
+				D2D5AAC326930424006F63DB /* WidgetViewController.swift */,
 				D2D5AAB1268B7036006F63DB /* ViewController.swift */,
 				D2D5AAB6268B703B006F63DB /* Assets.xcassets */,
 				D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */,
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D5AAC426930424006F63DB /* WidgetViewController.swift in Sources */,
 				D2D5AAB2268B7036006F63DB /* ViewController.swift in Sources */,
 				D2D5AAAE268B7036006F63DB /* AppDelegate.swift in Sources */,
 				D2D5AAC2268EDE48006F63DB /* HomeViewController.swift in Sources */,
