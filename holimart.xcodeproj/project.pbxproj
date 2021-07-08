@@ -76,6 +76,8 @@
 		D2D5ABF526974FE4006F63DB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF426974FDC006F63DB /* libsqlite3.tbd */; };
 		D2D5ABF626974FF1006F63DB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF326974FD2006F63DB /* libxml2.tbd */; };
 		D2D5ABF826975011006F63DB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF726975011006F63DB /* SystemConfiguration.framework */; };
+		D2D5ABFA269750F0006F63DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF9269750F0006F63DB /* UIKit.framework */; };
+		D2D5ABFC26975103006F63DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABFB26975103006F63DB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +168,8 @@
 		D2D5ABF326974FD2006F63DB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		D2D5ABF426974FDC006F63DB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D2D5ABF726975011006F63DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D2D5ABF9269750F0006F63DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2D5ABFB26975103006F63DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 				D2D5ABF626974FF1006F63DB /* libxml2.tbd in Frameworks */,
 				D2D5ABA626974BAB006F63DB /* DaumMap.framework in Frameworks */,
 				D2D5ABEC26974F74006F63DB /* OpenGLES.framework in Frameworks */,
+				D2D5ABFA269750F0006F63DB /* UIKit.framework in Frameworks */,
+				D2D5ABFC26975103006F63DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +349,8 @@
 		D2D5ABEA26974F74006F63DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2D5ABFB26975103006F63DB /* Foundation.framework */,
+				D2D5ABF9269750F0006F63DB /* UIKit.framework */,
 				D2D5ABF726975011006F63DB /* SystemConfiguration.framework */,
 				D2D5ABF426974FDC006F63DB /* libsqlite3.tbd */,
 				D2D5ABF326974FD2006F63DB /* libxml2.tbd */,
@@ -619,6 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JEGC4LC92;
 				INFOPLIST_FILE = holimart/Info.plist;
@@ -638,6 +647,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JEGC4LC92;
 				INFOPLIST_FILE = holimart/Info.plist;
