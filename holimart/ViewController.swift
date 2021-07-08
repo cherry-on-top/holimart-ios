@@ -24,10 +24,7 @@ class ViewController: UITabBarController {
         let widgetViewController = WidgetViewController()
         
         
-        let unselectedImage = UIImage(systemName: "house")
-        let selectedImage = UIImage(systemName: "house.fill")
-        
-        homeViewController.tabBarItem = UITabBarItem(title: "홈", image: unselectedImage, selectedImage: selectedImage)
+        homeViewController.tabBarItem = UITabBarItem(title: "홈", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
         
         widgetViewController.tabBarItem = UITabBarItem(title: "위젯", image: UIImage(systemName: "square.grid.2x2"), selectedImage: UIImage(systemName: "square.grid.2x2.fill"))
         
