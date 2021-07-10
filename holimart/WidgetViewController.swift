@@ -12,6 +12,7 @@ class WidgetViewController: UIViewController, UITabBarControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tabBarController?.delegate = self
+        view.backgroundColor = .systemPink
         // Do any additional setup after loading the view.
     }
     

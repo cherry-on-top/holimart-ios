@@ -7,21 +7,14 @@
 
 import UIKit
 
-class ViewController: UITabBarController, MTMapViewDelegate {
+class ViewController: UITabBarController{
     
-    var mapView: MTMapView?
-
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpTabBar()
         view.backgroundColor = .black
         
-        mapView = MTMapView(frame: self.view.bounds)
-        if let mapView = mapView {
-            mapView.delegate = self
-            mapView.baseMapType = .standard
-            self.view.addSubview(mapView)
-        }
+      
     }
     
     
