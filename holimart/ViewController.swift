@@ -14,7 +14,6 @@ class ViewController: UITabBarController{
         setUpTabBar()
         view.backgroundColor = .black
         
-      
     }
     
     

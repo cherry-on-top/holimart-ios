@@ -44,8 +44,10 @@ class HomeViewController: UIViewController, UITabBarControllerDelegate, MTMapVie
             poiItem1?.itemName = "제발 좀 나와주세요 마커야 보고 싶다"
             mapView.add(poiItem1)
                         
-//            mapView.addPOIItems([poiItem1])
-//            mapView.fitAreaToShowAllPOIItems()
+            // 지도 줌 구현해보기
+        
+            mapView.addPOIItems([poiItem1])
+            mapView.fitAreaToShowAllPOIItems()
             
             self.view.addSubview(mapView)
         }
