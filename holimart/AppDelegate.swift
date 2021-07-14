@@ -20,9 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func setUpRootViewController() {
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let viewController = ViewController()
+//        let viewController = ViewController()
+//
+//        window?.rootViewController = viewController
+//        window?.makeKeyAndVisible()
         
-        window?.rootViewController = viewController
+        let brandController = BrandViewController()
+        let navController = UINavigationController(rootViewController: brandController)
+        
+        window?.rootViewController = brandController
         window?.makeKeyAndVisible()
     }
 

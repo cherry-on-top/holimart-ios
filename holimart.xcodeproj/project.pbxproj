@@ -23,6 +23,7 @@
 		D2D5ABFC26975103006F63DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABFB26975103006F63DB /* Foundation.framework */; };
 		D2D5ABFF2699C4CF006F63DB /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABFE2699C4CF006F63DB /* Metal.framework */; };
 		D2D5AC092699C7B5006F63DB /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5AC082699C7B5006F63DB /* DaumMap.framework */; };
+		D2D5AC0B269F2B43006F63DB /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AC0A269F2B43006F63DB /* BrandViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		D2D5ABFE2699C4CF006F63DB /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		D2D5AC002699C58C006F63DB /* holimart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "holimart-Bridging-Header.h"; sourceTree = "<group>"; };
 		D2D5AC082699C7B5006F63DB /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		D2D5AC0A269F2B43006F63DB /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */,
 				D2D5AAC326930424006F63DB /* WidgetViewController.swift */,
 				D2D5AAB1268B7036006F63DB /* ViewController.swift */,
+				D2D5AC0A269F2B43006F63DB /* BrandViewController.swift */,
 				D2D5AAB6268B703B006F63DB /* Assets.xcassets */,
 				D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */,
 				D2D5AABB268B703B006F63DB /* Info.plist */,
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D5AC0B269F2B43006F63DB /* BrandViewController.swift in Sources */,
 				D2D5AAC426930424006F63DB /* WidgetViewController.swift in Sources */,
 				D2D5AAB2268B7036006F63DB /* ViewController.swift in Sources */,
 				D2D5AAAE268B7036006F63DB /* AppDelegate.swift in Sources */,
