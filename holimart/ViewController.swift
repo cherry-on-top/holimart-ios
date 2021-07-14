@@ -23,13 +23,15 @@ class ViewController: UITabBarController {
         
         let homeViewController = HomeViewController()
         let widgetViewController = WidgetViewController()
-        
+        let mapViewController = MapViewController()
         
         homeViewController.tabBarItem = UITabBarItem(title: "홈", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
         
         widgetViewController.tabBarItem = UITabBarItem(title: "위젯", image: UIImage(systemName: "square.grid.2x2"), selectedImage: UIImage(systemName: "square.grid.2x2.fill"))
         
-        let viewControllers = [homeViewController, widgetViewController]
+        mapViewController.tabBarItem = UITabBarItem(title: "지도", image: UIImage(systemName: "map"), selectedImage: UIImage(systemName: "map.fill"))
+        
+        let viewControllers = [homeViewController, widgetViewController, mapViewController]
         
         self.viewControllers = viewControllers
     }
