@@ -36,6 +36,8 @@
 	</array>
 	<key>KAKAO_APP_KEY</key>
 	<string>e3893da51ad3831f90d91c9398e3e2f9</string>
+	<key>NMFClientId</key>
+	<string>mdez5f449i</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

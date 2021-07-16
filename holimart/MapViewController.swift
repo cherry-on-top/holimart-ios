@@ -6,13 +6,16 @@
 //
 
 import UIKit
+import NMapsMap
 
 class MapViewController: UIViewController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGray
-        // Do any additional setup after loading the view.
+        
+        let mapView = NMFMapView(frame: view.frame)
+           view.addSubview(mapView)
     }
     
 
