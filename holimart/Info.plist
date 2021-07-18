@@ -38,6 +38,8 @@
 	<string>e3893da51ad3831f90d91c9398e3e2f9</string>
 	<key>NMFClientId</key>
 	<string>mdez5f449i</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>사용자의 위치를 받습니다.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
