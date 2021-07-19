@@ -7,5 +7,6 @@ target 'holimart' do
 
   # Pods for holimart
   pod 'NMapsMap'
+  pod 'Alamofire'
 
 end
