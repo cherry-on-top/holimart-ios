@@ -16,6 +16,12 @@ class MapViewController: UIViewController, UITabBarControllerDelegate {
         
         let mapView = NMFMapView(frame: view.frame)
            view.addSubview(mapView)
+        mapView.positionMode = .compass
+        mapView.showLegalNotice()
+        
+        let locationStatus = CLLocationManager.authorizationStatus()
+        print("위치 권한 요청 value", locationStatus.rawValue)
+
     }
     
 

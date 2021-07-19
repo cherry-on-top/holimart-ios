@@ -31,7 +31,7 @@ class ViewController: UITabBarController {
         
         mapViewController.tabBarItem = UITabBarItem(title: "지도", image: UIImage(systemName: "map"), selectedImage: UIImage(systemName: "map.fill"))
         
-        let viewControllers = [homeViewController, widgetViewController, mapViewController]
+        let viewControllers = [mapViewController, widgetViewController]
         
         self.viewControllers = viewControllers
     }
