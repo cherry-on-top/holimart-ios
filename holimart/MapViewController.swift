@@ -6,22 +6,26 @@
 //
 
 import UIKit
+import CoreLocation
 import NMapsMap
 
 class MapViewController: UIViewController, UITabBarControllerDelegate {
 
+    var locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemGray
+        locationManager.requestAlwaysAuthorization()
+        
+        let locationStatus = CLLocationManager.authorizationStatus()
+        print("위치 정보 권한 요청 밸류:",locationStatus.rawValue)
         
         let mapView = NMFMapView(frame: view.frame)
            view.addSubview(mapView)
         mapView.positionMode = .compass
         mapView.showLegalNotice()
         
-        let locationStatus = CLLocationManager.authorizationStatus()
-        print("위치 권한 요청 value", locationStatus.rawValue)
-
+    
     }
     
 
