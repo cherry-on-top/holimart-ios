@@ -8,6 +8,7 @@
 import UIKit
 import CoreLocation
 import NMapsMap
+import Alamofire
 
 class MapViewController: UIViewController, UITabBarControllerDelegate, CLLocationManagerDelegate {
 

@@ -7,6 +7,7 @@
 
 import UIKit
 import NMapsMap
+import Alamofire
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

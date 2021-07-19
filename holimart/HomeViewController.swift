@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 public let DEFAULT_POSITION = MTMapPointGeo(latitude: 37.576568, longitude: 127.029148)
 
