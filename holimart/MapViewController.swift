@@ -42,6 +42,10 @@ class MapViewController: UIViewController, UITabBarControllerDelegate, CLLocatio
         maker.position = NMGLatLng(lat: 37.5670135, lng: 126.9783740)
         maker.mapView = mapView
         
+        let myHomeMaker = NMFMarker()
+        myHomeMaker.position = NMGLatLng(lat: 37.53706074572739, lng: 127.07777000917451)
+        myHomeMaker.mapView = mapView
+        
         requestGPSPermission()
     }
     
