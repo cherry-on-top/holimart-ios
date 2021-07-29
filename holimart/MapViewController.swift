@@ -23,6 +23,7 @@ class MapViewController: UIViewController, UITabBarControllerDelegate, CLLocatio
         locationManager.delegate = self
         locationManager.startUpdatingLocation()
         locationManager.stopUpdatingLocation()
+//        locationManager.requestLocation()
         
         let locationStatus = locationManager.authorizationStatus
         print("위치 정보 권한 요청 밸류:",locationStatus.rawValue)
