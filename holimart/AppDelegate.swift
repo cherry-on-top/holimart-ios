@@ -23,8 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         let viewController = ViewController()
+        let brandViewController = BrandViewController()
 
-        window?.rootViewController = viewController
+        window?.rootViewController = brandViewController
         window?.makeKeyAndVisible()
         
 //        let brandController = BrandViewController()
