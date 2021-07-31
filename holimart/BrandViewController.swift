@@ -12,6 +12,7 @@ class BrandViewController: UIViewController {
 
     
     var welcomeLabel = UILabel()
+    var martSelectLabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,8 @@ class BrandViewController: UIViewController {
         welcomeLabel.textColor = .black
         welcomeLabel.textAlignment = .left
         welcomeLabel.numberOfLines = 0
+        
+        martSelectLabel.text = "자주 가는 마트를 2개 이상 선택해주세요."
         view.addSubview(welcomeLabel)
     }
     
