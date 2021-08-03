@@ -13,12 +13,15 @@ class BrandViewController: UIViewController {
     
     var welcomeLabel = UILabel()
     var martSelectLabel = UILabel()
+    let emartImgView = UIImageView()
+    let emartImg = UIImage(named: "logoEmart")
+    let homePlusImgView = UIImageView()
+    let homePlusImg = UIImage(named: "logoHomeplus")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setUpUI()
-        setupConstraints()
     }
     
     private func setUpUI() {
@@ -34,13 +37,22 @@ class BrandViewController: UIViewController {
         martSelectLabel.textAlignment = .left
         martSelectLabel.numberOfLines = 0
         
+        emartImgView.backgroundColor = .blue
+        homePlusImgView.backgroundColor = .systemGray
+        
         view.addSubview(welcomeLabel)
         view.addSubview(martSelectLabel)
+        view.addSubview(emartImgView)
+        view.addSubview(homePlusImgView)
+        
+        setUpConstraints()
     }
     
-    private func setupConstraints() {
+    private func setUpConstraints() {
         welcomeLabel.translatesAutoresizingMaskIntoConstraints = false
         martSelectLabel.translatesAutoresizingMaskIntoConstraints = false
+        emartImgView.translatesAutoresizingMaskIntoConstraints = false
+        homePlusImgView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
             welcomeLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
@@ -55,6 +67,15 @@ class BrandViewController: UIViewController {
             martSelectLabel.widthAnchor.constraint(equalToConstant: 220),
             martSelectLabel.heightAnchor.constraint(equalToConstant: 100)
         ])
+
+        NSLayoutConstraint.activate([
+            emartImgView.topAnchor.constraint(equalTo: martSelectLabel.bottomAnchor, constant: 0),
+            emartImgView.leadingAnchor.constraint(equalTo: welcomeLabel.leadingAnchor),
+            emartImgView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor, constant: -40),
+            emartImgView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -100)
+        ])
+        
+        
     }
 
     /*
