@@ -27,11 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
         
-//        let brandController = BrandViewController()
-//        let navController = UINavigationController(rootViewController: brandController)
-//
-//        window?.rootViewController = brandController
-//        window?.makeKeyAndVisible()
     }
 
 
