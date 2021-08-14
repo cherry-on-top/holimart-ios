@@ -3,181 +3,105 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2D5AAAE268B7036006F63DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAAD268B7036006F63DB /* AppDelegate.swift */; };
-		D2D5AAB2268B7036006F63DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAB1268B7036006F63DB /* ViewController.swift */; };
-		D2D5AAB7268B703B006F63DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D5AAB6268B703B006F63DB /* Assets.xcassets */; };
-		D2D5AABA268B703B006F63DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */; };
-		D2D5AAC2268EDE48006F63DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */; };
-		D2D5AAC426930424006F63DB /* WidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AAC326930424006F63DB /* WidgetViewController.swift */; };
-		D2D5ABEE26974F9E006F63DB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABED26974F9E006F63DB /* CoreLocation.framework */; };
-		D2D5ABF026974FAC006F63DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABEF26974FAC006F63DB /* QuartzCore.framework */; };
-		D2D5ABF226974FC8006F63DB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF126974FB6006F63DB /* libc++.tbd */; };
-		D2D5ABF526974FE4006F63DB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF426974FDC006F63DB /* libsqlite3.tbd */; };
-		D2D5ABF626974FF1006F63DB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF326974FD2006F63DB /* libxml2.tbd */; };
-		D2D5ABF826975011006F63DB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF726975011006F63DB /* SystemConfiguration.framework */; };
-		D2D5ABFA269750F0006F63DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABF9269750F0006F63DB /* UIKit.framework */; };
-		D2D5ABFC26975103006F63DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABFB26975103006F63DB /* Foundation.framework */; };
-		D2D5ABFF2699C4CF006F63DB /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ABFE2699C4CF006F63DB /* Metal.framework */; };
-		D2D5AC092699C7B5006F63DB /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5AC082699C7B5006F63DB /* DaumMap.framework */; };
-		D2D5AC0B269F2B43006F63DB /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AC0A269F2B43006F63DB /* BrandViewController.swift */; };
-		D2D5AC0D269F2F32006F63DB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5AC0C269F2F32006F63DB /* MapViewController.swift */; };
-		EF252729FCC5CDB0183BE511 /* Pods_holimart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB4F8EA30D1F713CDA0AAB6 /* Pods_holimart.framework */; };
+		D2148D8B26C8029400B70B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8A26C8029400B70B33 /* AppDelegate.swift */; };
+		D2148D8D26C8029400B70B33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8C26C8029400B70B33 /* SceneDelegate.swift */; };
+		D2148D8F26C8029400B70B33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8E26C8029400B70B33 /* ViewController.swift */; };
+		D2148D9226C8029400B70B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9026C8029400B70B33 /* Main.storyboard */; };
+		D2148D9426C8029D00B70B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9326C8029D00B70B33 /* Assets.xcassets */; };
+		D2148D9726C8029D00B70B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9526C8029D00B70B33 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48F5FA987A30581BB8506774 /* Pods-holimart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holimart.debug.xcconfig"; path = "Target Support Files/Pods-holimart/Pods-holimart.debug.xcconfig"; sourceTree = "<group>"; };
-		6EB4F8EA30D1F713CDA0AAB6 /* Pods_holimart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_holimart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D06412609D11CD918F97CE99 /* Pods-holimart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holimart.release.xcconfig"; path = "Target Support Files/Pods-holimart/Pods-holimart.release.xcconfig"; sourceTree = "<group>"; };
-		D2D5AAAA268B7036006F63DB /* holimart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holimart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D5AAAD268B7036006F63DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2D5AAB1268B7036006F63DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2D5AAB6268B703B006F63DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2D5AAB9268B703B006F63DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D2D5AABB268B703B006F63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		D2D5AAC326930424006F63DB /* WidgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetViewController.swift; sourceTree = "<group>"; };
-		D2D5ABEB26974F74006F63DB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		D2D5ABED26974F9E006F63DB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		D2D5ABEF26974FAC006F63DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D2D5ABF126974FB6006F63DB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		D2D5ABF326974FD2006F63DB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		D2D5ABF426974FDC006F63DB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		D2D5ABF726975011006F63DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D2D5ABF9269750F0006F63DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D2D5ABFB26975103006F63DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2D5ABFE2699C4CF006F63DB /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		D2D5AC002699C58C006F63DB /* holimart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "holimart-Bridging-Header.h"; sourceTree = "<group>"; };
-		D2D5AC082699C7B5006F63DB /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
-		D2D5AC0A269F2B43006F63DB /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
-		D2D5AC0C269F2F32006F63DB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D2148D8726C8029400B70B33 /* Holimart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holimart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2148D8A26C8029400B70B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2148D8C26C8029400B70B33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2148D8E26C8029400B70B33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2148D9126C8029400B70B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2148D9326C8029D00B70B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2148D9626C8029D00B70B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2148D9826C8029D00B70B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2D5AAA7268B7036006F63DB /* Frameworks */ = {
+		D2148D8426C8029400B70B33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D5ABF226974FC8006F63DB /* libc++.tbd in Frameworks */,
-				D2D5ABFF2699C4CF006F63DB /* Metal.framework in Frameworks */,
-				D2D5ABF826975011006F63DB /* SystemConfiguration.framework in Frameworks */,
-				D2D5ABF026974FAC006F63DB /* QuartzCore.framework in Frameworks */,
-				D2D5ABF526974FE4006F63DB /* libsqlite3.tbd in Frameworks */,
-				D2D5ABEE26974F9E006F63DB /* CoreLocation.framework in Frameworks */,
-				D2D5AC092699C7B5006F63DB /* DaumMap.framework in Frameworks */,
-				D2D5ABF626974FF1006F63DB /* libxml2.tbd in Frameworks */,
-				D2D5ABFA269750F0006F63DB /* UIKit.framework in Frameworks */,
-				D2D5ABFC26975103006F63DB /* Foundation.framework in Frameworks */,
-				EF252729FCC5CDB0183BE511 /* Pods_holimart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		997D1528893AA70A644279D9 /* Pods */ = {
+		D2148D7E26C8029400B70B33 = {
 			isa = PBXGroup;
 			children = (
-				48F5FA987A30581BB8506774 /* Pods-holimart.debug.xcconfig */,
-				D06412609D11CD918F97CE99 /* Pods-holimart.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		D2D5AAA1268B7036006F63DB = {
-			isa = PBXGroup;
-			children = (
-				D2D5AC002699C58C006F63DB /* holimart-Bridging-Header.h */,
-				D2D5AAAC268B7036006F63DB /* holimart */,
-				D2D5AAAB268B7036006F63DB /* Products */,
-				D2D5ABEA26974F74006F63DB /* Frameworks */,
-				997D1528893AA70A644279D9 /* Pods */,
+				D2148D8926C8029400B70B33 /* Holimart */,
+				D2148D8826C8029400B70B33 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D2D5AAAB268B7036006F63DB /* Products */ = {
+		D2148D8826C8029400B70B33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2D5AAAA268B7036006F63DB /* holimart.app */,
+				D2148D8726C8029400B70B33 /* Holimart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2D5AAAC268B7036006F63DB /* holimart */ = {
+		D2148D8926C8029400B70B33 /* Holimart */ = {
 			isa = PBXGroup;
 			children = (
-				D2D5AAAD268B7036006F63DB /* AppDelegate.swift */,
-				D2D5AC0C269F2F32006F63DB /* MapViewController.swift */,
-				D2D5AAC1268EDE48006F63DB /* HomeViewController.swift */,
-				D2D5AAC326930424006F63DB /* WidgetViewController.swift */,
-				D2D5AAB1268B7036006F63DB /* ViewController.swift */,
-				D2D5AC0A269F2B43006F63DB /* BrandViewController.swift */,
-				D2D5AAB6268B703B006F63DB /* Assets.xcassets */,
-				D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */,
-				D2D5AABB268B703B006F63DB /* Info.plist */,
+				D2148D8A26C8029400B70B33 /* AppDelegate.swift */,
+				D2148D8C26C8029400B70B33 /* SceneDelegate.swift */,
+				D2148D8E26C8029400B70B33 /* ViewController.swift */,
+				D2148D9026C8029400B70B33 /* Main.storyboard */,
+				D2148D9326C8029D00B70B33 /* Assets.xcassets */,
+				D2148D9526C8029D00B70B33 /* LaunchScreen.storyboard */,
+				D2148D9826C8029D00B70B33 /* Info.plist */,
 			);
-			path = holimart;
-			sourceTree = "<group>";
-		};
-		D2D5ABEA26974F74006F63DB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D2D5AC082699C7B5006F63DB /* DaumMap.framework */,
-				D2D5ABFE2699C4CF006F63DB /* Metal.framework */,
-				D2D5ABFB26975103006F63DB /* Foundation.framework */,
-				D2D5ABF9269750F0006F63DB /* UIKit.framework */,
-				D2D5ABF726975011006F63DB /* SystemConfiguration.framework */,
-				D2D5ABF426974FDC006F63DB /* libsqlite3.tbd */,
-				D2D5ABF326974FD2006F63DB /* libxml2.tbd */,
-				D2D5ABF126974FB6006F63DB /* libc++.tbd */,
-				D2D5ABEF26974FAC006F63DB /* QuartzCore.framework */,
-				D2D5ABED26974F9E006F63DB /* CoreLocation.framework */,
-				D2D5ABEB26974F74006F63DB /* OpenGLES.framework */,
-				6EB4F8EA30D1F713CDA0AAB6 /* Pods_holimart.framework */,
-			);
-			name = Frameworks;
+			path = Holimart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2D5AAA9268B7036006F63DB /* holimart */ = {
+		D2148D8626C8029400B70B33 /* Holimart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2D5AABE268B703B006F63DB /* Build configuration list for PBXNativeTarget "holimart" */;
+			buildConfigurationList = D2148D9B26C8029D00B70B33 /* Build configuration list for PBXNativeTarget "Holimart" */;
 			buildPhases = (
-				5A77E6CA746A4F21A9B05E57 /* [CP] Check Pods Manifest.lock */,
-				D2D5AAA6268B7036006F63DB /* Sources */,
-				D2D5AAA7268B7036006F63DB /* Frameworks */,
-				D2D5AAA8268B7036006F63DB /* Resources */,
-				30387EBD9FBADB1316B9C426 /* [CP] Embed Pods Frameworks */,
+				D2148D8326C8029400B70B33 /* Sources */,
+				D2148D8426C8029400B70B33 /* Frameworks */,
+				D2148D8526C8029400B70B33 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = holimart;
-			productName = holimart;
-			productReference = D2D5AAAA268B7036006F63DB /* holimart.app */;
+			name = Holimart;
+			productName = Holimart;
+			productReference = D2148D8726C8029400B70B33 /* Holimart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2D5AAA2268B7036006F63DB /* Project object */ = {
+		D2148D7F26C8029400B70B33 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					D2D5AAA9268B7036006F63DB = {
+					D2148D8626C8029400B70B33 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = D2D5AAA5268B7036006F63DB /* Build configuration list for PBXProject "holimart" */;
+			buildConfigurationList = D2148D8226C8029400B70B33 /* Build configuration list for PBXProject "Holimart" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,91 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D2D5AAA1268B7036006F63DB;
-			productRefGroup = D2D5AAAB268B7036006F63DB /* Products */;
+			mainGroup = D2148D7E26C8029400B70B33;
+			productRefGroup = D2148D8826C8029400B70B33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2D5AAA9268B7036006F63DB /* holimart */,
+				D2148D8626C8029400B70B33 /* Holimart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2D5AAA8268B7036006F63DB /* Resources */ = {
+		D2148D8526C8029400B70B33 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D5AABA268B703B006F63DB /* LaunchScreen.storyboard in Resources */,
-				D2D5AAB7268B703B006F63DB /* Assets.xcassets in Resources */,
+				D2148D9726C8029D00B70B33 /* LaunchScreen.storyboard in Resources */,
+				D2148D9426C8029D00B70B33 /* Assets.xcassets in Resources */,
+				D2148D9226C8029400B70B33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		30387EBD9FBADB1316B9C426 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-holimart/Pods-holimart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-holimart/Pods-holimart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-holimart/Pods-holimart-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5A77E6CA746A4F21A9B05E57 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-holimart-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D2D5AAA6268B7036006F63DB /* Sources */ = {
+		D2148D8326C8029400B70B33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D5AC0B269F2B43006F63DB /* BrandViewController.swift in Sources */,
-				D2D5AC0D269F2F32006F63DB /* MapViewController.swift in Sources */,
-				D2D5AAC426930424006F63DB /* WidgetViewController.swift in Sources */,
-				D2D5AAB2268B7036006F63DB /* ViewController.swift in Sources */,
-				D2D5AAAE268B7036006F63DB /* AppDelegate.swift in Sources */,
-				D2D5AAC2268EDE48006F63DB /* HomeViewController.swift in Sources */,
+				D2148D8F26C8029400B70B33 /* ViewController.swift in Sources */,
+				D2148D8B26C8029400B70B33 /* AppDelegate.swift in Sources */,
+				D2148D8D26C8029400B70B33 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2D5AAB8268B703B006F63DB /* LaunchScreen.storyboard */ = {
+		D2148D9026C8029400B70B33 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2D5AAB9268B703B006F63DB /* Base */,
+				D2148D9126C8029400B70B33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2148D9526C8029D00B70B33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2148D9626C8029D00B70B33 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -277,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D2D5AABC268B703B006F63DB /* Debug */ = {
+		D2148D9926C8029D00B70B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,12 +222,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hailey/Documents/dev/iOS/holimart/holimart/holimart-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D2D5AABD268B703B006F63DB /* Release */ = {
+		D2148D9A26C8029D00B70B33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,86 +276,71 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hailey/Documents/dev/iOS/holimart/holimart/holimart-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D2D5AABF268B703B006F63DB /* Debug */ = {
+		D2148D9C26C8029D00B70B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48F5FA987A30581BB8506774 /* Pods-holimart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JEGC4LC92;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				INFOPLIST_FILE = holimart/Info.plist;
+				INFOPLIST_FILE = Holimart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.foxwavez.holimart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foxwavez.Holimart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hailey/Documents/dev/iOS/holimart/holimart-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D2D5AAC0268B703B006F63DB /* Release */ = {
+		D2148D9D26C8029D00B70B33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D06412609D11CD918F97CE99 /* Pods-holimart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JEGC4LC92;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				INFOPLIST_FILE = holimart/Info.plist;
+				INFOPLIST_FILE = Holimart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.foxwavez.holimart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foxwavez.Holimart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hailey/Documents/dev/iOS/holimart/holimart-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2D5AAA5268B7036006F63DB /* Build configuration list for PBXProject "holimart" */ = {
+		D2148D8226C8029400B70B33 /* Build configuration list for PBXProject "Holimart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2D5AABC268B703B006F63DB /* Debug */,
-				D2D5AABD268B703B006F63DB /* Release */,
+				D2148D9926C8029D00B70B33 /* Debug */,
+				D2148D9A26C8029D00B70B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2D5AABE268B703B006F63DB /* Build configuration list for PBXNativeTarget "holimart" */ = {
+		D2148D9B26C8029D00B70B33 /* Build configuration list for PBXNativeTarget "Holimart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2D5AABF268B703B006F63DB /* Debug */,
-				D2D5AAC0268B703B006F63DB /* Release */,
+				D2148D9C26C8029D00B70B33 /* Debug */,
+				D2148D9D26C8029D00B70B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2D5AAA2268B7036006F63DB /* Project object */;
+	rootObject = D2148D7F26C8029400B70B33 /* Project object */;
 }
