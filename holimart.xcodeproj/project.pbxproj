@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FD01467FD80E7C288BB30A8 /* Pods_Holimart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4023550131911D5EC12D5A2 /* Pods_Holimart.framework */; };
 		D2148D8B26C8029400B70B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8A26C8029400B70B33 /* AppDelegate.swift */; };
 		D2148D8D26C8029400B70B33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8C26C8029400B70B33 /* SceneDelegate.swift */; };
 		D2148D8F26C8029400B70B33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8E26C8029400B70B33 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B69E3E4D97846641DDA7E57 /* Pods-Holimart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holimart.release.xcconfig"; path = "Target Support Files/Pods-Holimart/Pods-Holimart.release.xcconfig"; sourceTree = "<group>"; };
+		787321279C32A2AAD5ADEBEC /* Pods-Holimart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holimart.debug.xcconfig"; path = "Target Support Files/Pods-Holimart/Pods-Holimart.debug.xcconfig"; sourceTree = "<group>"; };
+		B4023550131911D5EC12D5A2 /* Pods_Holimart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holimart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2148D8726C8029400B70B33 /* Holimart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holimart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2148D8A26C8029400B70B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2148D8C26C8029400B70B33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD01467FD80E7C288BB30A8 /* Pods_Holimart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DE54B3C0021DBBAD017667A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				787321279C32A2AAD5ADEBEC /* Pods-Holimart.debug.xcconfig */,
+				0B69E3E4D97846641DDA7E57 /* Pods-Holimart.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86F8B92A69CCFCFC69066A5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4023550131911D5EC12D5A2 /* Pods_Holimart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2148D7E26C8029400B70B33 = {
 			isa = PBXGroup;
 			children = (
 				D2148D8926C8029400B70B33 /* Holimart */,
 				D2148D8826C8029400B70B33 /* Products */,
+				4DE54B3C0021DBBAD017667A /* Pods */,
+				86F8B92A69CCFCFC69066A5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2148D9B26C8029D00B70B33 /* Build configuration list for PBXNativeTarget "Holimart" */;
 			buildPhases = (
+				CAF84201BE6348D762CA2254 /* [CP] Check Pods Manifest.lock */,
 				D2148D8326C8029400B70B33 /* Sources */,
 				D2148D8426C8029400B70B33 /* Frameworks */,
 				D2148D8526C8029400B70B33 /* Resources */,
+				A078A211D00A1B124A751DD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A078A211D00A1B124A751DD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holimart/Pods-Holimart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holimart/Pods-Holimart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Holimart/Pods-Holimart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF84201BE6348D762CA2254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Holimart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2148D8326C8029400B70B33 /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		D2148D9C26C8029D00B70B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787321279C32A2AAD5ADEBEC /* Pods-Holimart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		D2148D9D26C8029D00B70B33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B69E3E4D97846641DDA7E57 /* Pods-Holimart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
