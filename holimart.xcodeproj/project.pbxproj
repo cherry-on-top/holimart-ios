@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		D2148D9226C8029400B70B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9026C8029400B70B33 /* Main.storyboard */; };
 		D2148D9426C8029D00B70B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9326C8029D00B70B33 /* Assets.xcassets */; };
 		D2148D9726C8029D00B70B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9526C8029D00B70B33 /* LaunchScreen.storyboard */; };
+		D2148DA126CFF79D00B70B33 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9826C8029D00B70B33 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +49,6 @@
 				787321279C32A2AAD5ADEBEC /* Pods-Holimart.debug.xcconfig */,
 				0B69E3E4D97846641DDA7E57 /* Pods-Holimart.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2148DA126CFF79D00B70B33 /* Info.plist in Resources */,
 				D2148D9726C8029D00B70B33 /* LaunchScreen.storyboard in Resources */,
 				D2148D9426C8029D00B70B33 /* Assets.xcassets in Resources */,
 				D2148D9226C8029400B70B33 /* Main.storyboard in Resources */,
