@@ -13,9 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemTeal
         let naverMapView = NMFNaverMapView(frame: view.frame)
-                view.addSubview(naverMapView)
+            view.addSubview(naverMapView)
     }
 
 
