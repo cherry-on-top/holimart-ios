@@ -7,6 +7,7 @@
 
 import UIKit
 import Alamofire
+import CoreLocation
 import NMapsMap
 
 class ViewController: UIViewController {
