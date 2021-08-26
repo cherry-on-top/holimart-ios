@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let naverMapView = NMFNaverMapView(frame: view.frame)
         locationM.requestAlwaysAuthorization()
+        locationM.allowsBackgroundLocationUpdates = true
             view.addSubview(naverMapView)
     }
 
