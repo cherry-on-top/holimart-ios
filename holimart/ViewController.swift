@@ -11,10 +11,12 @@ import CoreLocation
 import NMapsMap
 
 class ViewController: UIViewController {
+     var locationM = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let naverMapView = NMFNaverMapView(frame: view.frame)
+        locationM.requestAlwaysAuthorization()
             view.addSubview(naverMapView)
     }
 
