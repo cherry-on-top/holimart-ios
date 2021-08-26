@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4FD01467FD80E7C288BB30A8 /* Pods_Holimart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4023550131911D5EC12D5A2 /* Pods_Holimart.framework */; };
-		D2148D8B26C8029400B70B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8A26C8029400B70B33 /* AppDelegate.swift */; };
-		D2148D8D26C8029400B70B33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8C26C8029400B70B33 /* SceneDelegate.swift */; };
-		D2148D8F26C8029400B70B33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8E26C8029400B70B33 /* ViewController.swift */; };
 		D2148D9226C8029400B70B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9026C8029400B70B33 /* Main.storyboard */; };
 		D2148D9426C8029D00B70B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9326C8029D00B70B33 /* Assets.xcassets */; };
 		D2148D9726C8029D00B70B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9526C8029D00B70B33 /* LaunchScreen.storyboard */; };
-		D2148DA126CFF79D00B70B33 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2148D9826C8029D00B70B33 /* Info.plist */; };
+		D221CA0E26D53ECB0028606D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8A26C8029400B70B33 /* AppDelegate.swift */; };
+		D221CA0F26D53ED00028606D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8C26C8029400B70B33 /* SceneDelegate.swift */; };
+		D221CA1026D53ED30028606D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2148D8E26C8029400B70B33 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2148DA126CFF79D00B70B33 /* Info.plist in Resources */,
 				D2148D9726C8029D00B70B33 /* LaunchScreen.storyboard in Resources */,
 				D2148D9426C8029D00B70B33 /* Assets.xcassets in Resources */,
 				D2148D9226C8029400B70B33 /* Main.storyboard in Resources */,
@@ -207,9 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2148D8F26C8029400B70B33 /* ViewController.swift in Sources */,
-				D2148D8B26C8029400B70B33 /* AppDelegate.swift in Sources */,
-				D2148D8D26C8029400B70B33 /* SceneDelegate.swift in Sources */,
+				D221CA1026D53ED30028606D /* ViewController.swift in Sources */,
+				D221CA0E26D53ECB0028606D /* AppDelegate.swift in Sources */,
+				D221CA0F26D53ED00028606D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
